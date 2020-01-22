@@ -3,11 +3,11 @@ from scipy.optimize import minimize
 
 # Initialize all variables here
 R = 2; K = 2; 
-N = [506, 664]; 
-q_star = [1000, 2000];
-rho = [ [0.035, 0.045], [0.020, 0.060] ]
+N = [100, 100] 
+q_star = [112.59, 112.59]
+rho = [ [0.01, 0.05], [0.01, 0.05] ]
 
-i = 0; 
+i = 0
 ci = [0.0] * K # target vector c
 # objective function: cost minimization
 def min_cost(ci):
