@@ -1,3 +1,8 @@
+# IEEE Internet of Things Journal
+# Submitted manuscript IoT-8527-2019.R2
+# An example of SLSQP application for data broker cost minimization
+# Author: Hyeontaek Oh (hyeontaek@kaist.ac.kr)
+
 import numpy as np
 from scipy.optimize import minimize
 
